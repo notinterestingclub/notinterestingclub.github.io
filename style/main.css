@@ -2,6 +2,8 @@ html {}
 
 body {
 	margin: auto;
+	webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 }
 
 h1,
