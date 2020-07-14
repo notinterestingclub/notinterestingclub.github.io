@@ -1,5 +1,5 @@
 html {
-	cursor: url(../imgs/cur.gif),auto;
+	cursor: url(../imgs/cur.gif) 19 20, auto;
 }
 
 body {
@@ -7,7 +7,6 @@ body {
 	webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	font-size: 8px;
-	background-image: url("../imgs/club.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -32,52 +31,109 @@ a:visited {
 	cursor: url(../imgs/cur.gif),auto;
 }
 
-.fade-in {
-animation: fadeIn ease 15s;
--webkit-animation: fadeIn ease 15s;
--moz-animation: fadeIn ease 15s;
--o-animation: fadeIn ease 15s;
--ms-animation: fadeIn ease 15s;
-}
-@keyframes fadeIn {
-0% {opacity:0;}
-33.33% {opacity:0;}
-100% {opacity:1;}
+@keyframes fadeOne {
+	0% {opacity:0;}
+	25% {opacity:0;}
+	50% {opacity:1;}
+	100% {opacity:1;}
 }
 
-@-moz-keyframes fadeIn {
-0% {opacity:0;}
-33.33% {opacity:0;}
-100% {opacity:1;}
+@-moz-keyframes fadeOne {
+	0% {opacity:0;}
+	25% {opacity:0;}
+	50% {opacity:1;}
+	100% {opacity:1;}
 }
 
-@-webkit-keyframes fadeIn {
-0% {opacity:0;}
-33.33% {opacity:0;}
-100% {opacity:1;}
+@-webkit-keyframes fadeOne {
+	0% {opacity:0;}
+	25% {opacity:0;}
+	50% {opacity:1;}
+	100% {opacity:1;}
 }
 
-@-o-keyframes fadeIn {
-0% {opacity:0;}
-33.33% {opacity:0;}
-100% {opacity:1;}
+@-o-keyframes fadeOne {
+	0% {opacity:0;}
+	25% {opacity:0;}
+	50% {opacity:1;}
+	100% {opacity:1;}
 }
 
-@-ms-keyframes fadeIn {
-0% {opacity:0;}
-33.33% {opacity:0;}
-100% {opacity:1;}
+@-ms-keyframes fadeOne {
+	0% {opacity:0;}
+	25% {opacity:0;}
+	50% {opacity:1;}
+	100% {opacity:1;}
 }
 
-.makeup {
-	display: block;
+@keyframes fadeTwo {
+	0% {opacity:0;}
+	75% {opacity:0;}
+	100% {opacity:1;}
+	}
+
+@-moz-keyframes fadeTwo {
+	0% {opacity:0;}
+	75% {opacity:0;}
+	100% {opacity:1;}
+	}
+
+@-webkit-keyframes fadeTwo {
+	0% {opacity:0;}
+	75% {opacity:0;}
+	100% {opacity:1;}
+	}
+
+@-o-keyframes fadeTwo {
+	0% {opacity:0;}
+	75% {opacity:0;}
+	100% {opacity:1;}
+	}
+
+@-ms-keyframes fadeTwo {
+	0% {opacity:0;}
+	75% {opacity:0;}
+	100% {opacity:1;}
+}
+
+
+.three {
 	position: fixed;
+	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
 	z-index: 100;
-	width: 100%;
-	height: 100%;
-	background-image: url("../imgs/club2.gif");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-color: white;
+	margin: auto;
+	animation: fadeTwo ease 10s;
+	-webkit-animation: fadeTwo ease 10s;
+	-moz-animation: fadeTwo ease 10s;
+	-o-animation: fadeTwo ease 10s;
+	-ms-animation: fadeTwo ease 10s;
+}
+
+.two {
+	position: fixed;
+	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+	z-index: 50;
+	margin: auto;
+	animation: fadeOne ease 10s;
+	-webkit-animation: fadeOne ease 10s;
+	-moz-animation: fadeOne ease 10s;
+	-o-animation: fadeOne ease 10s;
+	-ms-animation: fadeOne ease 10s;
+}
+
+.one {
+	position: fixed;
+	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+	z-index: 1;
+	margin: auto;
+}
+
+.blue {
+	cursor: url(../imgs/hovcur.gif) 19 20, auto;
 }
