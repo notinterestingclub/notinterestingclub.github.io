@@ -64,14 +64,13 @@ animation: fadeIn ease 30s;
 100% {opacity:1;}
 }
 
-.covergirl {
+.makeup {
 	display: block;
 	position: fixed;
 	z-index: 100;
 	width: 100%;
 	height: 100%;
 	background-color: #F37022;
-	cursor: progress;
 }
 
 .logomark {
