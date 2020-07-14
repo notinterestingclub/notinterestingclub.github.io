@@ -5,6 +5,7 @@ body {
 	webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	background-color: #f6f1eb;
+	font-size: 8px;
 }
 
 h1,
@@ -21,7 +22,7 @@ h6 {
 	width: 80%;
 	margin: auto;
 	position: fixed;
-  	top: 50%;
+  top: 50%;
  	left: 50%;
  	transform: translate(-50%, -50%);
 }
@@ -30,4 +31,39 @@ h6 {
 	height: 100%;
 	width: 100%;
 	margin: auto;
+}
+
+.dated {
+  font-family: Courier New, monospace;
+  color: #F37022;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#aa {
+	position: fixed;
+	top: 3%;
+	left: 3%;
+  z-index: 10;
+}
+
+#bb {
+	position: fixed;
+	top: 3%;
+	right: 3%;
+  z-index: 10;
+}
+
+#cc {
+	position: fixed;
+	bottom: 3%;
+	left: 3%;
+  z-index: 10;
+}
+
+#dd {
+	position: fixed;
+	bottom: 3%;
+	right: 3%;
+  z-index: 10;
 }
