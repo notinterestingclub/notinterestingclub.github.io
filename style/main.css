@@ -18,6 +18,13 @@ h6 {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+::selection {
+  background: #000000; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #000000; /* Gecko Browsers */
+}
+
 .logomark {
 	width: 80%;
 	margin: auto;
