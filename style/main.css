@@ -33,54 +33,57 @@ a:visited {
 
 @keyframes fadeOne {
 	0% {opacity:0;}
-	25% {opacity:0;}
-	50% {opacity:1;}
+	16.66% {opacity:0;}
+	33.33% {opacity:1;}
 	100% {opacity:1;}
 }
 
 @-moz-keyframes fadeOne {
 	0% {opacity:0;}
-	25% {opacity:0;}
-	50% {opacity:1;}
+	16.66% {opacity:0;}
+	33.33% {opacity:1;}
 	100% {opacity:1;}
 }
 
 @-webkit-keyframes fadeOne {
 	0% {opacity:0;}
-	25% {opacity:0;}
-	50% {opacity:1;}
+	16.66% {opacity:0;}
+	33.33% {opacity:1;}
 	100% {opacity:1;}
 }
 
 @-o-keyframes fadeOne {
 	0% {opacity:0;}
-	25% {opacity:0;}
-	50% {opacity:1;}
+	16.66% {opacity:0;}
+	33.33% {opacity:1;}
 	100% {opacity:1;}
 }
 
 @-ms-keyframes fadeOne {
 	0% {opacity:0;}
-	25% {opacity:0;}
-	50% {opacity:1;}
+	16.66% {opacity:0;}
+	33.33% {opacity:1;}
 	100% {opacity:1;}
 }
 
 @keyframes fadeTwo {
 	0% {opacity:0;}
-	75% {opacity:0;}
+	50% {opacity:0;}
+	66.66% {opacity:1;}
 	100% {opacity:1;}
 	}
 
 @-moz-keyframes fadeTwo {
 	0% {opacity:0;}
-	75% {opacity:0;}
+	50% {opacity:0;}
+	66.66% {opacity:1;}
 	100% {opacity:1;}
 	}
 
 @-webkit-keyframes fadeTwo {
 	0% {opacity:0;}
-	75% {opacity:0;}
+	50% {opacity:0;}
+	66.66% {opacity:1;}
 	100% {opacity:1;}
 	}
 
@@ -92,10 +95,58 @@ a:visited {
 
 @-ms-keyframes fadeTwo {
 	0% {opacity:0;}
-	75% {opacity:0;}
+	50% {opacity:0;}
+	66.66% {opacity:1;}
 	100% {opacity:1;}
 }
 
+@keyframes fadeThree {
+	0% {opacity:0;}
+	83.33% {opacity:0;}
+	100% {opacity:1;}
+	}
+
+@-moz-keyframes fadeThree {
+	0% {opacity:0;}
+	83.33% {opacity:0;}
+	100% {opacity:1;}
+	}
+
+@-webkit-keyframes fadeThree {
+	0% {opacity:0;}
+	83.33% {opacity:0;}
+	100% {opacity:1;}
+	}
+
+@-o-keyframes fadeThree {
+	0% {opacity:0;}
+	83.33% {opacity:0;}
+	100% {opacity:1;}
+	}
+
+@-ms-keyframes fadeThree {
+	0% {opacity:0;}
+	83.33% {opacity:0;}
+	100% {opacity:1;}
+}
+
+.four {
+	position: fixed;
+	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+	z-index: 100;
+	margin: auto;
+	animation: fadeThree ease 15s;
+	-webkit-animation: fadeThree ease 15s;
+	-moz-animation: fadeThree ease 15s;
+	-o-animation: fadeThree ease 15s;
+	-ms-animation: fadeThree ease 15s;
+}
+
+.four iframe {
+	width: 100%;
+}
 
 .three {
 	position: fixed;
@@ -104,11 +155,11 @@ a:visited {
   	transform: translate(-50%, -50%);
 	z-index: 100;
 	margin: auto;
-	animation: fadeTwo ease 10s;
-	-webkit-animation: fadeTwo ease 10s;
-	-moz-animation: fadeTwo ease 10s;
-	-o-animation: fadeTwo ease 10s;
-	-ms-animation: fadeTwo ease 10s;
+	animation: fadeTwo ease 15s;
+	-webkit-animation: fadeTwo ease 15s;
+	-moz-animation: fadeTwo ease 15s;
+	-o-animation: fadeTwo ease 15s;
+	-ms-animation: fadeTwo ease 15s;
 }
 
 .two {
@@ -118,11 +169,11 @@ a:visited {
   	transform: translate(-50%, -50%);
 	z-index: 50;
 	margin: auto;
-	animation: fadeOne ease 10s;
-	-webkit-animation: fadeOne ease 10s;
-	-moz-animation: fadeOne ease 10s;
-	-o-animation: fadeOne ease 10s;
-	-ms-animation: fadeOne ease 10s;
+	animation: fadeOne ease 15s;
+	-webkit-animation: fadeOne ease 15s;
+	-moz-animation: fadeOne ease 15s;
+	-o-animation: fadeOne ease 15s;
+	-ms-animation: fadeOne ease 15s;
 }
 
 .one {
