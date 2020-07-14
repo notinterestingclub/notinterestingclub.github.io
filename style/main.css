@@ -136,5 +136,8 @@ a:visited {
 
 .blue {
 	cursor: url(../imgs/hovcur.gif) 19 20, auto;
+}
+
+.blue img {
 	max-width: 100%;
 }
