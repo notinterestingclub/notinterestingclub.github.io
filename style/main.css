@@ -19,19 +19,29 @@ a:visited {
 }
 
 .container {
-	height: 100vh;
-	width: 100vw;
+	max-height: 85vh;
+	max-width: 100%;
 }
 
 .one {
 	position: absolute;
 	z-index: 1;
 	max-height: 100%;
+	max-width: 100%;
 	left: 50%;
 	transform: translateX(-50%);
 }
 
-.one img {
-	height: 100%;
-	width: auto;
+img {
+	position: absolute;
+	z-index: 1;
+	max-height: 90vh;
+	max-width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.pad {
+	display: block;
+	height:5vh;
 }
