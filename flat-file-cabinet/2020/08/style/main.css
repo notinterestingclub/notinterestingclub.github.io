@@ -1,0 +1,47 @@
+html {
+	cursor: url(../imgs/cur.gif) 19 20, auto;
+}
+
+body {
+	webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+a:link,
+a:active,
+a:hover,
+a:visited {
+	color: rgba(255,255,255,0);
+	cursor: url(../imgs/cur.gif) 19 20,auto;
+}
+
+.container {
+	max-height: 85vh;
+	max-width: 100%;
+}
+
+.one {
+	position: absolute;
+	z-index: 1;
+	max-height: 100%;
+	max-width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+img {
+	position: absolute;
+	z-index: 1;
+	max-height: 80vh;
+	max-width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.pad {
+	display: block;
+	height:5vh;
+}
